@@ -36,7 +36,7 @@ By the end of the semester, I must deliver an MVP that:
 ## Milestones
 
 ### Milestone 1: Define User stories, and specify priorities. (October 7)
-### Milestone 2: Organize project website and github workflow with a backlog of user stories. (October 14)
+### Milestone 2: Organize project website and github workflow with a backlog of user stories. (October 7)
 ### Milestone 3: Wire Framing (October 21)
 ### Milestone 4: Mockups of all application pages (November 4)
 ### Milestone 5: Create databases and integrate into mockup pages (November 18)
