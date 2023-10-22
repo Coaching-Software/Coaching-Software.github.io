@@ -44,5 +44,14 @@ By the end of the semester, I must deliver an MVP that:
 ### Milestone 7: Test Success criteria. Deliver Prototype to the client to test with his athletes (December 2)
 ### Final Milestone: Continue improving the design of the app based on any client test feedback (End of Semester)
 
+## Usage
+
+Following Milestone 4, this section will include screenshots of the app's current version with breif text describing its function.
+
+## Repository
+
+[Newest Repository](https://github.com/Coaching-Software/app)
+
+To run this code, clone the main branch of the repository to your local machine and invoke 'flutter run' on the app directory. You may also need to first install flutter and get dependencies (this can be done easily with intelliJ). Note: app is currently mocked-up to look best on the XCODE iOS iPhone 14 simulator.
 
 ## [Current Project Board](https://github.com/orgs/Coaching-Software/projects/1/views/1)
