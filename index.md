@@ -46,7 +46,7 @@ By the end of the semester, I must deliver an MVP that:
 
 ## Usage
 
-Following Milestone 4, this section will include screenshots of the app's current version with breif text describing its function.
+Following Milestone 4, this section will include screenshots of the app's current version with brief text describing its function.
 
 ## Repository
 
