@@ -46,7 +46,68 @@ By the end of the semester, I must deliver an MVP that:
 
 ## Usage
 
-Following Milestone 4, this section will include screenshots of the app's current version with brief text describing its function.
+When you first open the app, you are asked to sign in or register.
+
+<img src="./screenshots/sign-in.png" width="25%">
+<img src="./screenshots/register.png" width="25%">
+
+Currently, only valid email addresses that are in the database will allow a user to signin. After signing in for the first time, the user is prompted to select their role.
+
+<img src="./screenshots/select-role.png" width="25%">
+
+After selection, they are taken to the respective version of the app. There is no way to change a user role in the app after its been initially selected. Upon each sign in thereafter, the user is automatically taken to their respective version of the app without asking for a user role.
+
+
+
+Coach App:
+
+Coaches are shown this home view with tabs for home, history, and settings.
+
+<img src="./screenshots/coach-home.png" width="25%">
+
+The new workout button shows a create workout screen.
+
+<img src="./screenshots/create-workout.png" width="25%">
+
+The new survey button shows a send survey screen.
+
+<img src="./screenshots/send-survey.png" width="25%">
+
+The history tab shows a page to view all historical workouts and survey data.
+
+<img src="./screenshots/coach-history-workout.png" width="25%">
+
+Clicking on a workout displays its details.
+
+<img src="./screenshots/workout-preview.png" width="25%">
+
+The survey history will show today's survey statistics and an option to see individual responses for each historical survey. This feature is not implemented yet as it requires intense integration with each database collection, and these collections are not yet complete.
+
+<img src="./screenshots/survey-stats.png.png" width="25%">
+
+The settings tab simply gives an option to change your name in the app and logout.
+
+<img src="./screenshots/settings.png" width="25%">
+
+
+
+Athlete App:
+
+Athletes are shown this home view with tabs for workouts, survey, and settings.
+
+<img src="./screenshots/athlete-current-workouts.png" width="25%">
+
+Clicking on a workout shows its details, similar to a coaches preview shown above. These workouts can be dismissed by sliding them off the screen after completion. The gesture will update the user database to permanently delete the user's view of completed workouts.
+
+<img src="./screenshots/slide-to-dismiss.png.png" width="25%">
+<img src="./screenshots/athlete-current-workouts-2.png" width="25%">
+
+The survey tab shows a screen to submit today's survey. If athlete's coach did not send a survey or if the athlete has already submitted the given survey, then a corresponding message will be shown instead of the option to submit.
+
+<img src="./screenshots/athlete-current-survey.png.png" width="25%">
+
+Finally, the settings page is identical for coaches and athletes at this point.
+
 
 ## Repository
 
