@@ -99,12 +99,12 @@ Athletes are shown this home view with tabs for workouts, survey, and settings.
 
 Clicking on a workout shows its details, similar to a coaches preview shown above. These workouts can be dismissed by sliding them off the screen after completion. The gesture will update the user database to permanently delete the user's view of completed workouts.
 
-<img src="./screenshots/slide-to-dismiss.png.png" width="25%">
+<img src="./screenshots/slide-to-dismiss.png" width="25%">
 <img src="./screenshots/athlete-current-workouts-2.png" width="25%">
 
 The survey tab shows a screen to submit today's survey. If athlete's coach did not send a survey or if the athlete has already submitted the given survey, then a corresponding message will be shown instead of the option to submit.
 
-<img src="./screenshots/athlete-current-survey.png.png" width="25%">
+<img src="./screenshots/athlete-current-survey.png" width="25%">
 
 Finally, the settings page is identical for coaches and athletes at this point.
 
