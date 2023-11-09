@@ -83,7 +83,7 @@ Clicking on a workout displays its details.
 
 The survey history will show today's survey statistics and an option to see individual responses for each historical survey. This feature is not implemented yet as it requires intense integration with each database collection, and these collections are not yet complete.
 
-<img src="./screenshots/survey-stats.png.png" width="25%">
+<img src="./screenshots/survey-stats.png" width="25%">
 
 The settings tab simply gives an option to change your name in the app and logout.
 
