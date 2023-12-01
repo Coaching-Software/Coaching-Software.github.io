@@ -1,7 +1,7 @@
 # "Coaching App"
 
 ### Website Purpose
-This site will be used to catalog links and updates on the progress of the "Coaching App" for Todd Melton.
+This site catalogs links and updates on the progress of the "Coaching App" for Todd Melton.
 
 ## Team Introduction
 ### [Justin Lisoway](https://justinlisoway.github.io/):
@@ -27,11 +27,13 @@ Mr. Melton is my former swim coach that I will be meeting with on a regular basi
 
 ## Success Criteria
 
-By the end of the semester, I must deliver an MVP that:
+By December 2nd, 2023, an MVP will be delivered that:
 
 1. Allows a coach to post a swimming workout
 2. Allows a group of swimmers to view a swimming workout posted by a coach
 3. Allows a coach to survey their athletes on recovery metrics
+
+As of December 1st, 2023 all 3 success criteria have been met and the app's functionality is summarized in the 'Usage' section below.
 
 ## Milestones
 
@@ -51,7 +53,7 @@ When you first open the app, you are asked to sign in or register.
 <img src="./screenshots/sign-in.png" width="25%">
 <img src="./screenshots/register.png" width="25%">
 
-Currently, only valid email addresses that are in the database will allow a user to signin. After signing in for the first time, the user is prompted to select their role.
+Only valid email addresses that are in the database will allow a user to signin. Users must also verify their email address before being able to sign in. After signing in for the first time, the user is prompted to select their role.
 
 <img src="./screenshots/select-role.png" width="25%">
 
@@ -59,21 +61,21 @@ After selection, they are taken to the respective version of the app. There is n
 
 
 
-Coach App:
+### Coach App:
 
 Coaches are shown this home view with tabs for home, history, and settings.
 
 <img src="./screenshots/coach-home.png" width="25%">
 
-The new workout button shows a create workout screen.
+The new workout button shows a create workout screen. Here, a coach can enter the name, date, and description of a workout. After clicking create, the workout will be visible by every athlete using the app. It will also be visible by coaches in the "history" tab.
 
 <img src="./screenshots/create-workout.png" width="25%">
 
-The new survey button shows a send survey screen.
+The new survey button shows a send survey screen. After sending, each athlete will have the ability to respond only once.
 
 <img src="./screenshots/send-survey.png" width="25%">
 
-The history tab shows a page to view all historical workouts and survey data.
+The history tab shows a page to view all historical workouts and survey data. Selecting workouts shows all previous workouts organized by date.
 
 <img src="./screenshots/coach-history-workout.png" width="25%">
 
@@ -81,17 +83,24 @@ Clicking on a workout displays its details.
 
 <img src="./screenshots/workout-preview.png" width="25%">
 
-The survey history will show today's survey statistics and an option to see individual responses for each historical survey. This feature is not implemented yet as it requires intense integration with each database collection, and these collections are not yet complete.
+Selecting surveys shows all previous surveys organized by date.
+
+<img src="./screenshots/survey-tab.png" width="25%">
+
+Selecting a survey shows the average of the responses metrics, and a list of individual responses for the survey.
 
 <img src="./screenshots/survey-stats.png" width="25%">
 
-The settings tab simply gives an option to change your name in the app and logout.
+Selecting an individual response shows that individual's survey response.
 
-<img src="./screenshots/settings.png" width="25%">
+<img src="./screenshots/individual-response.png" width="25%">
+
+The settings tab for the coach simply has a logout button that returns to the signin screen.
+
+<img src="./screenshots/coach-settings.png" width="25%">
 
 
-
-Athlete App:
+### Athlete App:
 
 Athletes are shown this home view with tabs for workouts, survey, and settings.
 
@@ -102,17 +111,25 @@ Clicking on a workout shows its details, similar to a coaches preview shown abov
 <img src="./screenshots/slide-to-dismiss.png" width="25%">
 <img src="./screenshots/athlete-current-workouts-2.png" width="25%">
 
-The survey tab shows a screen to submit today's survey. If athlete's coach did not send a survey or if the athlete has already submitted the given survey, then a corresponding message will be shown instead of the option to submit.
+The survey tab shows a screen to submit today's survey. If an athlete has already submitted the latest survey, then a screen with a message say so will be shown instead of the option to submit.
 
 <img src="./screenshots/athlete-current-survey.png" width="25%">
 
-Finally, the settings page is identical for coaches and athletes at this point.
+<img src="./screenshots/already-submitted.png" width="25%">
+
+The settings page for athletes has the additional feature of editing their name that appears on surveys.
+
+<img src="./screenshots/athlete-settings.png" width="25%">
 
 
 ## Repository
 
 [Newest Repository](https://github.com/Coaching-Software/app)
 
-To run this code, clone the main branch of the repository to your local machine and invoke 'flutter run' on the app directory. You may also need to first install flutter and get dependencies (this can be done easily with intelliJ). Note: app is currently mocked-up to look best on the XCODE iOS iPhone 14 simulator.
+To run this code, clone the main branch of the repository to your local machine and invoke 'flutter run' on the app directory. You may also need to first install flutter and get dependencies by running 'flutter pub get' (this can be done easily with intelliJ). Note: the app is currently mocked-up to look best on the XCODE iOS iPhone 15 simulator, although flexible widgets have been implemented to allow basic functionality on any mobile or desktop screen size.
 
 ## [Current Project Board](https://github.com/orgs/Coaching-Software/projects/1/views/1)
+
+## Deployment
+
+The app is currently being deployed only on Apple's Test Flight. Once deployed, a link to download the app to your iOS device will be available by clicking on 'deployment' above.
