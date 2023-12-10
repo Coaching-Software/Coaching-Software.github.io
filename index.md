@@ -124,7 +124,7 @@ The settings page for athletes has the additional feature of editing their name 
 
 ## Repository
 
-[Newest Repository](https://github.com/Coaching-Software/app)
+[Newest Repository](https://github.com/Coaching-Software/app/deployment)
 
 To run this code, clone the main branch of the repository to your local machine and invoke 'flutter run' on the app directory. You may also need to first install flutter and get dependencies by running 'flutter pub get' (this can be done easily with intelliJ). Note: the app is currently mocked-up to look best on the XCODE iOS iPhone 15 simulator, although flexible widgets have been implemented to allow basic functionality on any mobile or desktop screen size.
 
@@ -132,4 +132,4 @@ To run this code, clone the main branch of the repository to your local machine 
 
 ## Deployment
 
-The app is currently being deployed only on Apple's Test Flight. Once deployed, a link to download the app to your iOS device will be available by clicking on 'deployment' above.
+The app is currently deployed only on Apple's Test Flight. If you would like to download the deployed app on your iOS device, email the Team Lead at jlisoway@hawaii.edu to receive an invitation to join the beta testers.
